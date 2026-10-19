@@ -1,0 +1,166 @@
+/* Color Palette
+# - #b3b3b3  Gray
+# - #006600  Green darker
+# - #f5f5dc  Beige
+# - #800000  Maroon
+# - #ffffff  White
+# - #000000  Black
+*/
+
+/* Global styles 
+------------------------------------*/
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+html, body {
+	background: #b3b3b3;
+	margin: 0;
+}
+
+body {
+margin-top: 0;
+}
+/*
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+    padding: 1% 0.5% 1%;
+	background:  #e6e6e6;
+	line-height: 2;
+}*/
+
+p {
+	font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.content-wrap {
+    max-width: 950px;
+   /* width: 950px;*/
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Navigation
+------------------------------------*/
+nav.navbar {
+    background-color: #b3b3b3;
+    text-align: center;
+}
+
+/* Navigation Links */
+.navbar a {
+    display: inline-block;
+    color: #f5f5dc;
+    padding: 15px 20px;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+    background-color: #4d9900;
+    color: #ffffff;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+
+.resume-header {
+    background-color: #006600;
+    color: #000000;
+    padding: 10px;
+    font-weight: 600;
+}
+
+header h1, header h2 {
+    font-family: 'Fira Sans', Fira Sans, sans-serif;
+    margin: 0;
+    font-weight: 600;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+Section h2, Section h3 {
+    font-family: 'Fira Sans', Fira Sans, sans-serif;
+    font-size: 1.2rem;
+    padding: 1% 1% 0;
+    font-weight: 600;
+
+}
+
+footer {
+    background-color: #006600;
+    color: #000000;
+    /*padding: 5px;*/
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact-info a {
+    padding: 5px;
+    display: inline-block;
+}
+
+footer h2 {
+    font-family: 'Fira Sans', Fira Sans, sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+/* Work Experience
+------------------------------------*/
+h2.work-experience {
+    background-color: #333333;
+    font-size: 1.5em;
+    color: #000000;
+    padding: 10px;
+}
+
+
+/* Education
+------------------------------------*/
+h2.education {
+    background-color: #b3b3b3;
+    font-size: 1.5em;
+    color: #000000;
+    padding: 10px;
+}
+
+.image-bg {
+    background-image: url("../images/Background.JPG");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.alpha-bg {
+    background-color: rgba(186, 206, 229, 0.5);
+    padding: 20px ;
+}
