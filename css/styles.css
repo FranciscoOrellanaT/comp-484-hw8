@@ -24,17 +24,6 @@ html, body {
 body {
 margin-top: 0;
 }
-/*
-body {
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 100%;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-    padding: 1% 0.5% 1%;
-	background:  #e6e6e6;
-	line-height: 2;
-}*/
 
 p {
 	font-family: 'Times New Roman', Times, serif;
@@ -65,7 +54,7 @@ p {
 /* Navigation
 ------------------------------------*/
 nav.navbar {
-    background-color: #b3b3b3;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -122,6 +111,8 @@ footer {
 .contact-info a {
     padding: 5px;
     display: inline-block;
+    font-size: 1.5em;
+
 }
 
 footer h2 {
@@ -147,7 +138,7 @@ h2.work-experience {
 /* Education
 ------------------------------------*/
 h2.education {
-    background-color: #b3b3b3;
+    /*background-color: #b3b3b3;*/
     font-size: 1.5em;
     color: #000000;
     padding: 10px;
